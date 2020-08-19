@@ -92,6 +92,7 @@
 /* Media queries for main content */
 @media only screen and (max-width: 550px){
     .newsletter-signup{
-        width: 100%;
+        width: 95%;
+        margin: 0px 10px;
     }
 }
