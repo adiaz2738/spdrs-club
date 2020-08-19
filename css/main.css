@@ -1,0 +1,114 @@
+/* Reset styling */
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+/* :root styling */
+:root{
+    --overlay-color: rgba(0, 0, 0, 0.75);
+}
+
+/* Universal text styling */
+h1{
+    font-family: "Montserrat";
+    font-size: 35px;
+    color: white;
+}
+
+h2{
+    font-family: "Montserrat";
+    font-size: 25px;
+    color: white;
+}
+
+p{
+    font-family: "Montserrat";
+    font-size: 18px;
+    color: white;
+}
+
+/* Universal button styling */
+.btn{
+    display: inline-block;
+    color: white;
+    background-color: black;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px;
+    border: white 2px solid;
+}
+
+.btn:hover{
+    color: black;
+    background-color: white;
+    border: black 2px solid;
+}
+
+/* Header styling */
+header{
+    display: flex;
+    width: 100%;
+    height: 100px;
+    justify-content: space-around;
+    padding: 0px 20px;
+    align-items: center;
+    position: fixed;
+    z-index: 1;
+}
+
+/* Logo styling */
+.logo-container h1{
+    font-weight: 400;
+}
+
+.logo-container h1 span{
+    font-weight: 800;
+}
+
+/* Navigation */
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav ul{
+    display: flex;
+}
+
+nav ul a{
+    font-family: "Montserrat";
+    font-size: 16px;
+    color: white;
+    padding: 0px 10px;
+}
+
+nav ul a:hover{
+    color: grey;
+}
+
+/* Footer styling */
+footer{
+    display: block;
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    position: fixed;
+}
+
+.copyright-info{
+    display: flex;
+    width: auto;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.copyright-info p{
+    font-size: 16px;
+}
+
+/* Media queries for header and footer */
