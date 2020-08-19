@@ -41,7 +41,7 @@
     flex-direction: column;
     text-align: start;
     width: 500px;
-    height: 200px;
+    height: auto;
     border: white 1px solid;
     padding: 20px;
     margin: 50px 0px;
@@ -55,7 +55,12 @@
 
 .validate h2{
     font-size: 25px;
-    padding: 20px 0px;
+    padding: 0px 0px 5px 0px;
+}
+
+.validate p{
+    font-size: 14px;
+    padding-bottom: 20px;
 }
 
 .asterisk{
@@ -76,6 +81,12 @@
     margin-top: 20px;
     border: white 1px solid;
     background-color: rgb(206, 206, 206);
+}
+
+.button:hover{
+    cursor: pointer;
+    border: rgba(206, 206, 206) 1px solid;
+    background-color: white;
 }
 
 /* Media queries for main content */
