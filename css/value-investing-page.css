@@ -1,0 +1,18 @@
+.main-content-inner{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.stock-research-list-container{
+    display: block;
+    width: 100%;
+    height: auto;
+    padding-bottom: 20px;
+}
+
+.investing-portfolio-container{
+    display: block;
+    width: 100%;
+    height: auto;
+    padding-bottom: 20px;
+}
